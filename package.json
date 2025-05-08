@@ -1,0 +1,13 @@
+{
+  "name": "deep-ventures-website",
+  "version": "1.0.0",
+  "description": "A simple one-pager website for Deep Ventures",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
