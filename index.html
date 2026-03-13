@@ -6,30 +6,44 @@
     <title>Deep Ventures</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/images/deep_favicon.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
+    <canvas id="mesh-bg"></canvas>
     <header>
         <div class="logo">
             <img src="assets/images/deep.png" alt="Deep Ventures">
         </div>
         <h2>From Idea to Impact: We Build Startups That Scale</h2>
         <p>We partner with founders to design, build, and launch digital products—backed by technical strategy, hands-on development, and aligned incentives.</p>
-    
     </header>
     <main>
-        <section id="about" class="reveal">
+        <section id="about">
             <h1>About Us</h1>
             <p>We are a boutique consulting firm dedicated to building the next generation of successful digital startups. Founded by a seasoned technologist with a network of trusted collaborators, we work closely with visionary founders to bring ambitious ideas to life. Our model is flexible and entrepreneurial: we offer deep technical expertise, strategic guidance, and, in select cases, contribute as early investors—either financially, through sweat equity, or both. Whether as partners or advisors, our goal is to help shape scalable, impactful products from the ground up.</p>
         </section>
-        <section id="services" class="reveal">
+        <section id="services">
             <h1>Our Services</h1>
-            <p><strong>Technical Strategy:</strong> We help founders define the technical foundation of their product—choosing the right architecture, stack, and development approach to match the business vision and scale.</p>
-            <p><strong>Product Engineering:</strong> From MVPs to full-scale platforms, we build high-quality digital products that are designed to evolve with your startup's growth.</p>
-            <p><strong>Startup Acceleration:</strong> We act as hands-on partners during the critical early stages, combining product thinking with engineering execution to reduce time-to-market and increase chances of success.</p>
-            <p><strong>Strategic Investment:</strong> In select projects, we invest our time, skills, and capital in exchange for equity, aligning our success with yours from day one.</p>
+            <div class="services-list">
+                <div class="service-item">
+                    <h3>Technical Strategy</h3>
+                    <p>We help founders define the technical foundation of their product—choosing the right architecture, stack, and development approach to match the business vision and scale.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Product Engineering</h3>
+                    <p>From MVPs to full-scale platforms, we build high-quality digital products that are designed to evolve with your startup's growth.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Startup Acceleration</h3>
+                    <p>We act as hands-on partners during the critical early stages, combining product thinking with engineering execution to reduce time-to-market and increase chances of success.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Strategic Investment</h3>
+                    <p>In select projects, we invest our time, skills, and capital in exchange for equity, aligning our success with yours from day one.</p>
+                </div>
+            </div>
         </section>
-        <section id="culture" class="reveal">
+        <section id="culture">
             <h1>Our Culture</h1>
             <p>These are the principles we go by:</p>
             <ul class="principles-list">
@@ -45,7 +59,7 @@
                 <li>Perfection is impossible to reach, we get asymptotically close to it with arbitrary precision</li>
                 <li>We use our best efforts to deliver what agreed between our client and the team</li>
                 <li>We know how to balance strategy and tactic</li>
-                <li>“Work-life balance” is not a contraposition of two different things: work is an essential part of life</li>
+                <li>"Work-life balance" is not a contraposition of two different things: work is an essential part of life</li>
                 <li>We care for our health: mens sana in corpore sano</li>
                 <li>We value personal growth; it contributes to the strength of the whole team</li>
                 <li>Failure is OK as long as we can learn from it</li>
@@ -62,10 +76,8 @@
     </main>
     <footer>
         <p>&copy; 2025 Deep Ventures</p>
-        <p>a trading name for Deep Studios Ltd
-            201 Haverstock Hill,
-            London, England, NW3 4QG
-            Company n. 09954253</p>
+        <p>a trading name for Deep Studios Ltd</p>
+        <p>201 Haverstock Hill, London, England, NW3 4QG &middot; Company n. 09954253</p>
     </footer>
     <script src="script.js"></script>
 </body>
